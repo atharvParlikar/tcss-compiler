@@ -1,0 +1,47 @@
+body {
+ w-screen
+ h-screen
+ flex
+ justify-center
+ items-center
+ font-mono
+ @css
+  background-color: #e5e5f7;
+  background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444cf7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444cf7 2px, #e5e5f7 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+ @endcss
+}
+
+.card {
+ bg-white
+ p-10
+ border-4
+ border-blue-500
+ bg-gray-200
+ rounded-xl
+ @css
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(62,134,212,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(62,134,212,1);
+  box-shadow: 10px 10px 0px 0px rgba(62,134,212,1);
+ @endcss
+}
+
+ul {
+ @css
+  list-style: inside;
+ @endcss
+}
+
+h1 {
+ text-2xl
+ font-bold
+}
+
+h2 {
+ text-xl
+ font-bold
+}
+
+p {
+ max-w-2xl
+}
