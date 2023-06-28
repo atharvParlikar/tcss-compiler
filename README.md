@@ -14,6 +14,22 @@ then once you are into the repo, run
 ```bash
 npm run dev
 ```
+
+## syntax
+
+```
+.btn {
+    bg-black <-- tailwindcss utility classes
+    font-white
+    p-10
+    rounded-lg
+    @css <-- anything inside this will be treated as normal css
+        -webkit-text-stroke: 4px gray; <-- normal css for more flexibility
+    @endcss
+}
+```
+note: tcss does not support comments as of now so the arrows above are invalid, they are just there for ease of understanding.
+
 ---
 ## TODO
 - [ ] tcss plugin for vite-react
